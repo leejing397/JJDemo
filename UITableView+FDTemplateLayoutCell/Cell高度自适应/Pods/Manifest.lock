@@ -1,0 +1,26 @@
+PODS:
+  - hprose (2.0.2)
+  - Masonry (1.1.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - UITableView+FDTemplateLayoutCell (1.6)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - hprose (= 2.0.2)
+  - Masonry (~> 1.1.0)
+  - SDWebImage (~> 4.3.3)
+  - UITableView+FDTemplateLayoutCell (~> 1.6)
+  - YYModel (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  hprose: beb7d46213314ec96914500ba7e284ec582d4e64
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: dde874378720a18c373e274e292a52c37670955a
+
+COCOAPODS: 1.4.0

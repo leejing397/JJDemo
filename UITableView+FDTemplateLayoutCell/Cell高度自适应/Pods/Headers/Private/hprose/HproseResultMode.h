@@ -1,0 +1,1 @@
+../../../hprose/src/HproseResultMode.h
