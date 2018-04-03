@@ -1,0 +1,27 @@
+/* pages/module/swiper.wxss */
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+.page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+.btn-area{
+    padding: 0 30px;
+}
+.section__title{
+    margin-bottom: 16rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+}
+.section_gap .section__title{
+    padding-left: 0;
+    padding-right: 0;
+}
+.section{
+    margin-bottom: 80rpx;
+}
+.section_gap{
+    padding: 0 30rpx;
+}

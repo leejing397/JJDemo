@@ -1,0 +1,28 @@
+.flex-wrp {
+  /*不换行  */
+  flex-wrap: nowrap;
+  display: flex;
+  /*横向放不下时允许滚动  */
+  overflow-x: scroll;
+  /*各item之间被间隔包裹  */
+  /* justify-content: space-around; */
+  /*垂直方向上居中  */
+  /* align-items: center; */
+}
+
+.flex-item {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.bc_green {
+  background-color: green;
+}
+
+.bc_red {
+  background-color: red;
+}
+
+.bc_blue {
+  background-color: blue;
+}

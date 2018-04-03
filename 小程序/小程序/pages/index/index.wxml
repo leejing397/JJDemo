@@ -1,0 +1,41 @@
+ <!--数据绑定--内容-->
+<view>{{message}}</view>
+
+<!--数据绑定--组件属性-->
+<view id="item-{{id}}">组件属性id-{{id}}</view>
+
+<!--数据绑定---控制属性-->
+<view wx:if="{{condition}}">控制属性{{condition}}</view>
+
+<!--数据绑定---三元运算-->
+<view hidden="{{flag ? true : false}}">Hidden--{{flag}}</view>
+
+<!--数据绑定---算数运算-->
+<view>{{a + b}} + {{c}} + d</view>
+
+<!--数据绑定---逻辑判断-->
+<view wx:if="{{length > 5}}">6</view>
+
+<!--数据绑定---字符串运算-->
+<view>{{"Hello" + name}}</view>
+
+<!--数据绑定---数组组合-->
+<view wx:for="{{[zero, 1, 2, 3, 4, 5, 6]}}">{{item}}</view>
+
+<!--数据绑定---对象-->
+<!--最终组合成的对象是{for: 1, bar: 2}-->
+<template is="objectCombine" data="{{for: x, bar: y}}"></template>
+
+<!--数据绑定---扩展运算符 ... 来将一个对象展开-->
+<!--最终组合成的对象是{a: 1, b: 2, c: 3, d: 4, e: 5}-->
+<template is="objectCombine" data="{{...obj1, ...obj2, e: 5}}"></template>
+
+<!--数据绑定---对象的 key 和 value 相同-->
+<!--最终组合成的对象是{foo: 'my-foo', bar:'my-bar'}-->
+<template is="objectCombine" data="{{foo, bar}}"></template>
+
+<view bindtap="changeText"> {{ message }} </view>
+
+<view>
+    <button bindtap="binddoubletap">点击</button>
+</view>
