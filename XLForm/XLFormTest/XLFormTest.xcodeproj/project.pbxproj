@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99ADD5982A80C833DCA34EB4 /* libPods-XLFormTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C107D0EE30E1FCB9959C41 /* libPods-XLFormTest.a */; };
+		FF0EC0A32079A129003E0203 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EC0A22079A129003E0203 /* AppDelegate.m */; };
+		FF0EC0A62079A129003E0203 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EC0A52079A129003E0203 /* ViewController.m */; };
+		FF0EC0A92079A129003E0203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0EC0A72079A129003E0203 /* Main.storyboard */; };
+		FF0EC0AB2079A129003E0203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0EC0AA2079A129003E0203 /* Assets.xcassets */; };
+		FF0EC0AE2079A129003E0203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0EC0AC2079A129003E0203 /* LaunchScreen.storyboard */; };
+		FF0EC0B12079A129003E0203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EC0B02079A129003E0203 /* main.m */; };
+		FF0EC0B92079A342003E0203 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EC0B82079A342003E0203 /* FristViewController.m */; };
+		FF0EC0BC2079AE36003E0203 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EC0BB2079AE36003E0203 /* SecondViewController.m */; };
+		FF0EC0C02079B0E6003E0203 /* SecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EC0BF2079B0E6003E0203 /* SecondCell.m */; };
+		FF0EC0C32079BCD9003E0203 /* BasePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EC0C22079BCD9003E0203 /* BasePhotoCell.m */; };
+		FF0EC0C62079C28A003E0203 /* LivePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0EC0C52079C28A003E0203 /* LivePhotoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39C107D0EE30E1FCB9959C41 /* libPods-XLFormTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLFormTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C374FFAECBB16C472CD9A08 /* Pods-XLFormTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFormTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLFormTest/Pods-XLFormTest.release.xcconfig"; sourceTree = "<group>"; };
+		E7D682781AC5692B1A141065 /* Pods-XLFormTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFormTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLFormTest/Pods-XLFormTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FF0EC09E2079A129003E0203 /* XLFormTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLFormTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0EC0A12079A129003E0203 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF0EC0A22079A129003E0203 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF0EC0A42079A129003E0203 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF0EC0A52079A129003E0203 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF0EC0A82079A129003E0203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF0EC0AA2079A129003E0203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF0EC0AD2079A129003E0203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF0EC0AF2079A129003E0203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0EC0B02079A129003E0203 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF0EC0B72079A342003E0203 /* FristViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
+		FF0EC0B82079A342003E0203 /* FristViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FristViewController.m; sourceTree = "<group>"; };
+		FF0EC0BA2079AE36003E0203 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FF0EC0BB2079AE36003E0203 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FF0EC0BE2079B0E6003E0203 /* SecondCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondCell.h; sourceTree = "<group>"; };
+		FF0EC0BF2079B0E6003E0203 /* SecondCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondCell.m; sourceTree = "<group>"; };
+		FF0EC0C12079BCD9003E0203 /* BasePhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePhotoCell.h; sourceTree = "<group>"; };
+		FF0EC0C22079BCD9003E0203 /* BasePhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePhotoCell.m; sourceTree = "<group>"; };
+		FF0EC0C42079C28A003E0203 /* LivePhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LivePhotoCell.h; sourceTree = "<group>"; };
+		FF0EC0C52079C28A003E0203 /* LivePhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0EC09B2079A129003E0203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ADD5982A80C833DCA34EB4 /* libPods-XLFormTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF109657552521C9B5094E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C107D0EE30E1FCB9959C41 /* libPods-XLFormTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7673AAD2CC09ED084556A00D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7D682781AC5692B1A141065 /* Pods-XLFormTest.debug.xcconfig */,
+				8C374FFAECBB16C472CD9A08 /* Pods-XLFormTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF0EC0952079A129003E0203 = {
+			isa = PBXGroup;
+			children = (
+				FF0EC0A02079A129003E0203 /* XLFormTest */,
+				FF0EC09F2079A129003E0203 /* Products */,
+				7673AAD2CC09ED084556A00D /* Pods */,
+				1EF109657552521C9B5094E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF0EC09F2079A129003E0203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF0EC09E2079A129003E0203 /* XLFormTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0EC0A02079A129003E0203 /* XLFormTest */ = {
+			isa = PBXGroup;
+			children = (
+				FF0EC0A12079A129003E0203 /* AppDelegate.h */,
+				FF0EC0A22079A129003E0203 /* AppDelegate.m */,
+				FF0EC0A42079A129003E0203 /* ViewController.h */,
+				FF0EC0A52079A129003E0203 /* ViewController.m */,
+				FF0EC0B72079A342003E0203 /* FristViewController.h */,
+				FF0EC0B82079A342003E0203 /* FristViewController.m */,
+				FF0EC0BA2079AE36003E0203 /* SecondViewController.h */,
+				FF0EC0BB2079AE36003E0203 /* SecondViewController.m */,
+				FF0EC0BD2079B0CE003E0203 /* Cells */,
+				FF0EC0A72079A129003E0203 /* Main.storyboard */,
+				FF0EC0AA2079A129003E0203 /* Assets.xcassets */,
+				FF0EC0AC2079A129003E0203 /* LaunchScreen.storyboard */,
+				FF0EC0AF2079A129003E0203 /* Info.plist */,
+				FF0EC0B02079A129003E0203 /* main.m */,
+			);
+			path = XLFormTest;
+			sourceTree = "<group>";
+		};
+		FF0EC0BD2079B0CE003E0203 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF0EC0BE2079B0E6003E0203 /* SecondCell.h */,
+				FF0EC0BF2079B0E6003E0203 /* SecondCell.m */,
+				FF0EC0C12079BCD9003E0203 /* BasePhotoCell.h */,
+				FF0EC0C22079BCD9003E0203 /* BasePhotoCell.m */,
+				FF0EC0C42079C28A003E0203 /* LivePhotoCell.h */,
+				FF0EC0C52079C28A003E0203 /* LivePhotoCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0EC09D2079A129003E0203 /* XLFormTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0EC0B42079A129003E0203 /* Build configuration list for PBXNativeTarget "XLFormTest" */;
+			buildPhases = (
+				1363F3D884A2E05532BBB52F /* [CP] Check Pods Manifest.lock */,
+				FF0EC09A2079A129003E0203 /* Sources */,
+				FF0EC09B2079A129003E0203 /* Frameworks */,
+				FF0EC09C2079A129003E0203 /* Resources */,
+				17D6B5AC1FD81BB77B370355 /* [CP] Embed Pods Frameworks */,
+				7CA4C082DB394B4984134739 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLFormTest;
+			productName = XLFormTest;
+			productReference = FF0EC09E2079A129003E0203 /* XLFormTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF0EC0962079A129003E0203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Iris;
+				TargetAttributes = {
+					FF0EC09D2079A129003E0203 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF0EC0992079A129003E0203 /* Build configuration list for PBXProject "XLFormTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF0EC0952079A129003E0203;
+			productRefGroup = FF0EC09F2079A129003E0203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0EC09D2079A129003E0203 /* XLFormTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0EC09C2079A129003E0203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0EC0AE2079A129003E0203 /* LaunchScreen.storyboard in Resources */,
+				FF0EC0AB2079A129003E0203 /* Assets.xcassets in Resources */,
+				FF0EC0A92079A129003E0203 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1363F3D884A2E05532BBB52F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLFormTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17D6B5AC1FD81BB77B370355 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLFormTest/Pods-XLFormTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA4C082DB394B4984134739 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XLFormTest/Pods-XLFormTest-resources.sh",
+				"${PODS_ROOT}/ACMediaFrame/ACMediaFrame/ACMediaFrame.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/XLForm/XLForm/XLForm.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ACMediaFrame.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XLForm.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLFormTest/Pods-XLFormTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0EC09A2079A129003E0203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0EC0BC2079AE36003E0203 /* SecondViewController.m in Sources */,
+				FF0EC0A62079A129003E0203 /* ViewController.m in Sources */,
+				FF0EC0B12079A129003E0203 /* main.m in Sources */,
+				FF0EC0A32079A129003E0203 /* AppDelegate.m in Sources */,
+				FF0EC0C62079C28A003E0203 /* LivePhotoCell.m in Sources */,
+				FF0EC0B92079A342003E0203 /* FristViewController.m in Sources */,
+				FF0EC0C02079B0E6003E0203 /* SecondCell.m in Sources */,
+				FF0EC0C32079BCD9003E0203 /* BasePhotoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF0EC0A72079A129003E0203 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0EC0A82079A129003E0203 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF0EC0AC2079A129003E0203 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0EC0AD2079A129003E0203 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF0EC0B22079A129003E0203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF0EC0B32079A129003E0203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0EC0B52079A129003E0203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D682781AC5692B1A141065 /* Pods-XLFormTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPC77PXP2V;
+				INFOPLIST_FILE = XLFormTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gxsn.XLFormTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF0EC0B62079A129003E0203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C374FFAECBB16C472CD9A08 /* Pods-XLFormTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPC77PXP2V;
+				INFOPLIST_FILE = XLFormTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gxsn.XLFormTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF0EC0992079A129003E0203 /* Build configuration list for PBXProject "XLFormTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0EC0B22079A129003E0203 /* Debug */,
+				FF0EC0B32079A129003E0203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0EC0B42079A129003E0203 /* Build configuration list for PBXNativeTarget "XLFormTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0EC0B52079A129003E0203 /* Debug */,
+				FF0EC0B62079A129003E0203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF0EC0962079A129003E0203 /* Project object */;
+}
