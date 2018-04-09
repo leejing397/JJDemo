@@ -1,0 +1,15 @@
+PODS:
+  - hprose (2.0.3)
+  - MJRefresh (3.1.15.3)
+
+DEPENDENCIES:
+  - hprose
+  - MJRefresh (~> 3.1.15.3)
+
+SPEC CHECKSUMS:
+  hprose: 8b021625ba6ce9e4e2ae8eeb7170be89bf5ffc1a
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+
+PODFILE CHECKSUM: f28dfcf7fbb832fb03f41ac282805e08441f5b5b
+
+COCOAPODS: 1.4.0
